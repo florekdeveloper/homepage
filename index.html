@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <p>
+        <button class="js-button">Włącz <span class="js-themeName">ciemny</span> motyw</button>
+    </p>
+    <nav>
+        <ul class="navigation__list">
+            <li><a class="navigation__link" href="#Doświadczenie">Przejdz do Doświadczenie zawodowe</a></li>
+            <li><a class="navigation__link" href="#Zainteresowania">Przejdz do Zainteresowania</a></li>
+            <li><a class="navigation__link" href="#Języki">Przejdz do Języki obce</a></li>
+        </ul>
+    </nav>
+    <article class="article">
+        <h1 class="article__header">Marcin Florek</h1>
+        <img width="200" height="200" src="https://i.postimg.cc/ncY7JPjq/marcin.jpg" alt="marcin florek">
+        <h2 class="article__subHeader">Parę słów o mnie</h2>
+        <p>Nazywam sie Marcin Florek pochodze z Poznania.
+        </p>
+        <section id="Doświadczenie">
+            <h2 class="article__subHeader">Doświadczenie Zawodowe</h2>
+            <p>
+                Obecnie nie mam stałej pracy, ostatnie lata byłem w branży klimatyzacji, zakładanie
+                instalacji w
+                samochodach typu
+                landrover defender i również w lokomotywach klasy 66. Do tego serwisowanie wszelkiego rodzaju pojazdów
+                osobowych, dostawczych, ciężarowych a nawet rolniczych. Najpierw jako serwisant później menadżer
+                serwisu.
+                Jeśli chodzi o lata wcześniejsze to było pare różnych prac ale najdłużej w branży nieruchomości
+                :zarządzanie
+                i utrzymanie.
+                Praca jak dla mnie przyjemna, połowe casu się spędzało w biurze a drugą połowe w terenie, wiec czas
+                szybko
+                leciał. <br> Zwłaszcza jak trzeba dopilnować żeby wszystko było skończone w określonym terminie 😃 .
+            </p>
+        </section>
+    </article>
+
+    <article class="article">
+        <section id="Zainteresowania">
+            <h2 class="article__subHeader">
+                Zainteresowania
+            </h2>
+            <div>
+                <table class="table">
+                    <caption class="table__caption">Muzyka-moje ulubione utwory</caption>
+                    <tr>
+                        <th class="tableCell tableHeader" scope="col">Wykonawca</th>
+                        <th class="tableCell tableHeader" scope="col">Tytuł</th>
+                    </tr>
+                    <tr>
+                        <th class="tableCell tableHeader" rowspan="2">Dr.dre</th>
+                        <td class="tableCell">Next Episode</td>
+                    <tr>
+                        <td class="tableCell">Still</td>
+                    </tr>
+                    <tr>
+                        <th class="tableCell tableHeader" rowspan="2">George Michael</th>
+                        <td class="tableCell">Father Figure</td>
+                    <tr>
+                        <td class="tableCell">Fastlove</td>
+                    </tr>
+                    <tr>
+                        <th class="tableCell tableHeader" scope="row">2Pac</th>
+                        <td class="tableCell">Changes</td>
+                    </tr>
+                    <tr>
+                        <th class="tableCell tableHeader" scope="row">Justin Timberlake</th>
+                        <td class="tableCell">Can't Stop the Feeling</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <table class="table">
+                    <caption class="table__caption">Sport-ulubiony sport i sportowcy</caption>
+                    <tr>
+                        <th class="tableCell tableHeader" scope="col">Sport</th>
+                        <th class="tableCell tableHeader" scope="col">Sportowiec</th>
+                    </tr>
+                    <tr>
+                        <th class="tableCell tableHeader" rowspan="2">Tennis</th>
+                        <td class="tableCell">Roger Federer</td>
+                    <tr>
+                        <td class="tableCell">Rafael Nadal</td>
+                    </tr>
+                    <tr>
+                        <th class="tableCell tableHeader" rowspan="2">Boxing</th>
+                        <td class="tableCell">Mike Tyson</td>
+                    <tr>
+                        <td class="tableCell">Tyson Fury</td>
+                    </tr>
+                    <tr>
+                        <th class="tableCell tableHeader" scope="row">MMA</th>
+                        <td class="tableCell">Francis Ngannou</td>
+                    </tr>
+                    <tr>
+                        <th class="tableCell tableHeader" scope="row">Arm-wrestling</th>
+                        <td class="tableCell">Devon Larratt</td>
+                    </tr>
+                </table>
+            </div>
+
+        </section>
+    </article>
+
+    <article class="article" id="Języki">
+        <h2 class="list__subHeader">
+            Języki obce
+        </h2>
+        <ul>
+            <li class="list__item">Polski-ojczysty</li>
+            <li class="list__item">Angielski-zaawansowany</li>
+            <li class="list__item">Niemiecki-podstawowy</li>
+        </ul>
+    </article>
+
+    <footer class="footer">
+        Copyright © 2022 by Marcin Florek. Wszystkie prawa zastrzeżone.
+    </footer>
+</body>
+
+</html>
