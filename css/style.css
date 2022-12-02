@@ -10,6 +10,9 @@
     width: 100%;
     color: #1a1a1a;
 }
+.image {
+    border-radius: 50px;
+}
 
 .tableCell {
     border: 2px solid rgb(0, 0, 0);

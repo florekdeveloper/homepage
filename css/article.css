@@ -44,10 +44,6 @@ html {
     color: #225d5d;
 }
 
-.list__subHeader {
-    color: blue;
-}
-
 .navigation__link:link {
     text-decoration: none;
     color: #8b0000;
