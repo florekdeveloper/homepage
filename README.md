@@ -1,4 +1,4 @@
-# Marcin Florek - moja strona
+# Marcin Florek - my first website
 
 ![marcin](images/marcin.jpg)
 
@@ -6,6 +6,5 @@
 
 https://florekdeveloper.github.io/homepage/
 
-## Opis
 
-Witam serdecznie w mojej pierwszej stronie i Pozdrawiam.
+Welcome on my first homepage project.
