@@ -7,4 +7,4 @@
 https://florekdeveloper.github.io/homepage/
 
 
-Welcome on my first homepage project.
+Welcome this is my first homepage project.
