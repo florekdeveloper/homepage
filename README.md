@@ -9,7 +9,7 @@ https://florekdeveloper.github.io/homepage/
 
 Welcome this is my first homepage project.
 
-## Technologies used
+## Technologies
 
 - HTML
 - JAVA SCRIPT
