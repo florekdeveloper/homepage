@@ -8,3 +8,10 @@ https://florekdeveloper.github.io/homepage/
 
 
 Welcome this is my first homepage project.
+
+## Technologies used
+
+- HTML
+- JAVA SCRIPT
+- CSS
+- BEM
