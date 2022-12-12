@@ -1,11 +1,24 @@
-console.log("Hello!");
+{
+    const welcome = () => {
+        console.log("Hello!");
+    };
 
-let button = document.querySelector(".js-button");
-let body = document.querySelector("body");
-let themeName = document.querySelector(".js-themeName");
+    const toggleBackground = () => {
 
-button.addEventListener("click", () => {
-    body.classList.toggle("dark");
+        const body = document.querySelector("body");
+        const themeName = document.querySelector(".js-themeName");
+        body.classList.toggle("dark");
+        themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
+    };
 
-    themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
-});
+
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", toggleBackground);
+
+        welcome();
+    };
+
+    init();
+}
+
