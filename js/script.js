@@ -11,7 +11,6 @@
         themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
     };
 
-
     const init = () => {
         const button = document.querySelector(".js-button");
         button.addEventListener("click", toggleBackground);
